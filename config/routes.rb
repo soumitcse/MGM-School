@@ -1,5 +1,22 @@
 Rails.application.routes.draw do
+  # get 'admin/index'
+
+  # get 'sessions/new'
+
+  get 'sessions/create'
+
+  get 'sessions/destroy'
+
   resources :users
+
+  get 'admin'=> 'admin#index'
+
+  controller :sessions do
+    get 'login' => :new
+    post 'login' => :create
+    delete 'logout' => :destroy
+  end
+
   root 'pages#home'
   get 'home' => 'pages#home'
   get 'about_us' => 'pages#about_us'
@@ -15,6 +32,7 @@ Rails.application.routes.draw do
   get '26-jan' => 'pages#26-jan'
   get 'feveral_party' => 'pages#feveral_party'
   get 'gallery' => 'pages#gallery'
+  get 'login' => 'login'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
