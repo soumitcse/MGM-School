@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SchoolProject</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.scrolltofixed/0.1/jquery-scrolltofixed-min.js" type="text/javascript"></script>
+
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+var myCenter=new google.maps.LatLng(27.159355, 78.396830);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:8,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+
+<%= yield %>
+<script>
+// Vars
+
+var wrapper    = $("#site-wrapper"),
+    menu       = $(".menu-m"),
+    menuLinks  = $(".menu-m ul li a"),
+    toggle     = $(".nav-toggle"),
+    toggleIcon = $(".nav-toggle span");
+html = $("html");
+function toggleThatNav() {
+  if (menu.hasClass("show-nav")) {
+    if (!Modernizr.csstransforms) {
+      menu.removeClass("show-nav");
+      toggle.removeClass("show-nav");
+      menu.animate({
+        right: "-=300"
+      }, 500);
+      toggle.animate({
+        right: "-=300"
+      }, 500);
+    html.css('overflow', 'auto');
+    } else {
+      menu.removeClass("show-nav");
+      toggle.removeClass("show-nav");
+    html.css('overflow', 'auto');
+    }
+    
+  } else {
+    if (!Modernizr.csstransforms) {
+      menu.addClass("show-nav");
+      toggle.addClass("show-nav");
+      menu.css("right", "0px");
+      toggle.css("right", "330px");
+    html.css('overflow', 'hidden');
+    } else {
+      menu.addClass("show-nav");
+      toggle.addClass("show-nav");
+    html.css('overflow', 'hidden');
+    } 
+  }
+}
+
+function changeToggleClass() {
+  toggleIcon.toggleClass("fa-times");
+  toggleIcon.toggleClass("fa-bars");
+}
+
+$(function() {
+  toggle.on("click", function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    toggleThatNav();
+    changeToggleClass();
+  });
+    // Keyboard Esc event support
+  $(document).keyup(function(e) {
+    if (e.keyCode == 27) {
+      if (menu.hasClass("show-nav")) {
+        if (!Modernizr.csstransforms) {
+          menu.removeClass("show-nav");
+          toggle.removeClass("show-nav");
+          menu.css("right", "-300px");
+          toggle.css("right", "30px");
+          changeToggleClass();
+        } else {
+          menu.removeClass("show-nav");
+          toggle.removeClass("show-nav");
+          changeToggleClass();
+        }
+      }
+    } 
+  });
+});
+</script>
+<script>
+if($(window).width() >= 769){
+jQuery(document).ready(function(){
+    $(".dropdown").hover(
+        function() { $('.dropdown-menu', this).fadeIn("fast");
+                $('b', this).toggleClass("caret caret-up");
+        },
+        function() { $('.dropdown-menu', this).fadeOut("fast");
+                $('b', this).toggleClass("caret caret-up"); 
+    });
+});
+}
+if($(window).width()<=767){
+$(document).ready(function() {
+        $('#header').scrollToFixed();
+      $('#search').scrollToFixed();
+    });}  
+    if($(window).width()>=767){
+$(document).ready(function() {
+        $('#myNavbar').scrollToFixed();
+    });}
+$(document).ready(function() {
+        $('.cart1').scrollToFixed();
+    });
+    $(document).ready(function() {
+        $('.social').scrollToFixed();
+    });
+if($(window).width() > 768){  
+$(window).scroll( function(){
+        if($(window).scrollTop() > 50) $(".cart1").addClass("cart2");
+        else $(".cart1").removeClass("cart2");    
+    });
+  }
+  
+  var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+    autoplay: 3500,
+    centeredSlides: true,
+        loop: true,
+    effect: "17,13,1",
+            effectRandom: true,
+      slices: 14,
+            boxes: 8,
+    autoplayDisableOnInteraction: false
+    });
+$(document).ready(function(){
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var url = $("#rarerabbitVideo").attr('src');
+    
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#myModal").on('hide.bs.modal', function(){
+        $("#rarerabbitVideo").attr('src', '');
+    });
+    
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#myModal").on('show.bs.modal', function(){
+        $("#rarerabbitVideo").attr('src', url);
+    });
+});
+$(document).ready(function() {   
+            var sideslider = $('[data-toggle=collapse-side]');
+            var sel = sideslider.attr('data-target');
+            var sel2 = sideslider.attr('data-target-2');
+            sideslider.click(function(event){
+                $(sel).toggleClass('in');
+                $(sel2).toggleClass('out');
+            });
+        });
+     videoSRC = $('iframe').attr('src');
+      $('button .close').click(function (e) {
+     $(' iframe').attr('src', videoSRC);
+          });
+          
+     $('#myModal').on('hidden.bs.modal', function (e) {
+          $(' iframe').attr('src', videoSRC);
+          });
+     
+</script>
+<script>
+jQuery(document).ready(function() {
+ 
+var offset = 250;
+ 
+var duration = 300;
+ 
+jQuery(window).scroll(function() {
+ 
+if (jQuery(this).scrollTop() > offset) {
+ 
+jQuery(‘.back-to-top’).fadeIn(duration);
+ 
+} else {
+ 
+jQuery(‘.back-to-top’).fadeOut(duration);
+ 
+}
+ 
+});
+ 
+&nbsp;
+ 
+jQuery(‘.back-to-top’).click(function(event) {
+ 
+event.preventDefault();
+ 
+jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+ 
+return false;
+ 
+})
+ 
+});
+</script>
+</body>
+</html>
