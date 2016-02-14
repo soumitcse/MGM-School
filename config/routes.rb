@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :student_details
   # get 'admin/index'
 
   # get 'sessions/new'
@@ -33,7 +34,7 @@ Rails.application.routes.draw do
   get 'feveral_party' => 'pages#feveral_party'
   get 'gallery' => 'pages#gallery'
   get 'login' => 'login'
-
+  get 'student_details' => 'student_details/new'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,2 +1,22 @@
-<h1>Admin#index</h1>
-<p>Find me in app/views/admin/index.html.erb</p>
+
+<%= cloudinary_js_config %>
+
+<%= form_for('/', :method => :post) do |f| %>
+  <p>
+    <%= f.label :Registration_Number %><br>
+    <%= f.text_field :regno %>
+  </p>
+
+  <p>
+    <%= f.label :Student_Name %><br>
+    <%= f.text_field :name  %>
+  </p>
+  <p>
+  	<%= f.label :Upload_Tc_Photo %><br>
+  	<%= cl_image_upload_tag(:image_id) %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+ 
+<% end %>

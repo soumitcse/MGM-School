@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  regno: MyString
+  name: MyString
+  image_id: MyString
+
+two:
+  regno: MyString
+  name: MyString
+  image_id: MyString

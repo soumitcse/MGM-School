@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Regno:</strong>
+  <%= @student_detail.regno %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @student_detail.name %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+
+  <%= cl_image_tag(@student_detail.image_id, :crop => :fill, :width => 120, :height => 80) %>
+</p>
+
+<%= link_to 'Edit', edit_student_detail_path(@student_detail) %> |
+<%= link_to 'Back', student_details_path %>
