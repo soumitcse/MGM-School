@@ -10,7 +10,7 @@ class StudentDetailsController < ApplicationController
   # GET /student_details/1find(params[:id])
   # GET /student_details/1.json
   def show
-     @student_details = StudentDetail.find(params[:id])
+     @student_details = StudentDetail.find(params[:id]) 
   end
 
   # GET /student_details/new
@@ -25,9 +25,9 @@ class StudentDetailsController < ApplicationController
   # POST /student_details
   # POST /student_details.json
   def create
-    # byebug
+     # byebug
 
-    @student_detail = StudentDetail.new(student_detail_params)
+    @student_detail = StudentDetail.new(student_details_params)
     if params[:image_id].present?
       preloaded = Cloudinary::PreloadedFile.new(params[:image_id])         
       raise "Invalid upload signature" if !preloaded.valid?
