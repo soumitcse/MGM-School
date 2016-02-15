@@ -13,7 +13,7 @@
 <p>
   <strong>File Photo:</strong>
  
-  <%= cl_image_tag(@student_detail.image_id, :crop => :fill, :width => 120, :height => 80) %>
+  <%= cl_image_tag(@student_detail.image_id) %>
 </p>
 
 <%= link_to 'Edit', edit_student_detail_path(@student_detail) %> |

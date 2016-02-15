@@ -24,8 +24,25 @@
     
     
     <%= f.cl_image_upload :image_id %>
+    
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit  :id => "submit"%>
   </div>
 <% end %>
+
+<script type="text/javascript">
+$('#submit').hide();
+$('.cloudinary-fileupload').bind('cloudinarydone', function(e , data) {
+   $(this).hide();
+   $('#submit').show();
+
+  });
+$('.cloudinary-fileupload').bind('fileuploadfail', function(e , data) {
+   $(this).show();
+   $('#submit').hide();
+
+  });
+
+
+</script>
