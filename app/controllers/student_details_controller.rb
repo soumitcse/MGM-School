@@ -24,7 +24,7 @@ class StudentDetailsController < ApplicationController
   # POST /student_details
   # POST /student_details.json
   def create
-    byebug
+    # byebug
 
     @student_detail = StudentDetail.new(student_detail_params)
     if params[:image_id].present?
