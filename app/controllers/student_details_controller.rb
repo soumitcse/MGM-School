@@ -27,7 +27,7 @@ class StudentDetailsController < ApplicationController
   def create
      # byebug
 
-    @student_detail = StudentDetail.new(student_details_params)
+    @student_detail = StudentDetail.new(student_detail_params)
     if params[:image_id].present?
       preloaded = Cloudinary::PreloadedFile.new(params[:image_id])         
       raise "Invalid upload signature" if !preloaded.valid?
