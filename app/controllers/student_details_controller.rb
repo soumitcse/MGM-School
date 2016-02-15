@@ -7,9 +7,10 @@ class StudentDetailsController < ApplicationController
     @student_details = StudentDetail.all
   end
 
-  # GET /student_details/1
+  # GET /student_details/1find(params[:id])
   # GET /student_details/1.json
   def show
+     @student_details = StudentDetail.find(params[:id])
   end
 
   # GET /student_details/new
