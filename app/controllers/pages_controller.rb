@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def tc
   	 @student_details = StudentDetail.all
   end
+  def viewtc
+
+  end
 
   
 end

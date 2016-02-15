@@ -36,6 +36,7 @@ Rails.application.routes.draw do
   get 'login' => 'login'
   get 'student_details' => 'student_details/new'
   get 'tc' => 'pages#tc'
+ 
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
