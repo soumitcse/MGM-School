@@ -34,7 +34,7 @@ Rails.application.routes.draw do
   get 'feveral_party' => 'pages#feveral_party'
   get 'gallery' => 'pages#gallery'
   get 'login' => 'login'
-  get 'student_details' => 'student_details/new'
+  get 'student_details' => 'student_details#new'
   get 'tc' => 'pages#tc'
  
 
