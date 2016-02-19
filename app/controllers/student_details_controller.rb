@@ -15,6 +15,7 @@ class StudentDetailsController < ApplicationController
 
   # GET /student_details/new
   def new
+    
     @student_detail = StudentDetail.new
   end
 

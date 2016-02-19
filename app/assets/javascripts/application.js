@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 
 
@@ -20,11 +21,11 @@
 //= require jquery.iframe-transport
 //= require jquery.fileupload
 //= require jquery.cloudinary 
-
-
-//= require turbolinks
 //= require bootstrap-sprockets
 //= require underscore
+
+//= require turbolinks
+
 
 //= require_tree .
 

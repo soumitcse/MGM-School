@@ -24,7 +24,7 @@ Rails.application.routes.draw do
   get 'school_glance' => 'pages#school_glance'
   get 'school_prayer' => 'pages#school_prayer'
   get 'school_anthem' => 'pages#school_anthem'
-  get 'admission' => 'pages#admission'
+  get '/admission' => 'pages#admission'
   get 'uniform' => 'pages#uniform'
   get 'parents_recomandation' => 'pages#parents_recomandation'
   get 'teaching_staff' => 'pages#teaching_staff'
@@ -33,7 +33,7 @@ Rails.application.routes.draw do
   get '26-jan' => 'pages#26-jan'
   get 'feveral_party' => 'pages#feveral_party'
   get 'gallery' => 'pages#gallery'
-  get 'login' => 'login'
+  get 'login' => 'sessions#new'
   get 'student_details' => 'student_details#new'
   get 'tc' => 'pages#tc'
  

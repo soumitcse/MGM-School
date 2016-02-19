@@ -30,6 +30,27 @@
     <%= f.submit  :id => "submit"%>
   </div>
 <% end %>
+<input type="hidden" id="refreshed" value="no">
+
+// <script type="text/javascript">
+// // A $( document ).ready() block.
+// $( document ).ready(function() {
+
+
+
+
+// console.log( "ready!" );
+// var e=document.getElementById("refreshed");
+// if(e.value=="no")
+//   {e.value="yes";
+// console.log( "Not Reloaded!" );}
+// else{
+//   e.value="no";
+//   location.reload();
+//   console.log( "Reloaded!" );
+// }
+// });
+// </script>
 
 <script type="text/javascript">
 $('#submit').hide();
@@ -46,3 +67,4 @@ $('.cloudinary-fileupload').bind('fileuploadfail', function(e , data) {
 
 
 </script>
+

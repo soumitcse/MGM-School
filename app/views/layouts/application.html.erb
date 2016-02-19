@@ -16,26 +16,26 @@
   
 
 <script>
-var myCenter=new google.maps.LatLng(27.159355, 78.396830);
+// var myCenter=new google.maps.LatLng(27.159355, 78.396830);
 
-function initialize()
-{
-var mapProp = {
-  center:myCenter,
-  zoom:8,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
+// function initialize()
+// {
+// var mapProp = {
+//   center:myCenter,
+//   zoom:8,
+//   mapTypeId:google.maps.MapTypeId.ROADMAP
+//   };
 
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+// var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-var marker=new google.maps.Marker({
-  position:myCenter,
-  });
+// var marker=new google.maps.Marker({
+//   position:myCenter,
+//   });
 
-marker.setMap(map);
-}
+// marker.setMap(map);
+// }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+// google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 </head>
 <body>
@@ -212,27 +212,27 @@ jQuery(window).scroll(function() {
  
 if (jQuery(this).scrollTop() > offset) {
  
-jQuery(‘.back-to-top’).fadeIn(duration);
+// jQuery(‘.back-to-top’).fadeIn(duration);
  
 } else {
  
-jQuery(‘.back-to-top’).fadeOut(duration);
+// jQuery(‘.back-to-top’).fadeOut(duration);
  
 }
  
 });
  
-&nbsp;
+
  
-jQuery(‘.back-to-top’).click(function(event) {
+// jQuery(‘.back-to-top’).click(function(event) {
  
-event.preventDefault();
+// event.preventDefault();
  
-jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+// jQuery(‘html, body’).animate({scrollTop: 0}, duration);
  
-return false;
+// return false;
  
-})
+// })
  
 });
 </script>
