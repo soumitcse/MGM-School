@@ -1,7 +1,22 @@
 <%= cloudinary_js_config %>
+<div class="row"></div>
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+			<div class="jumbotron">
+				
+					<p>
+					  <h1>New Student Detail</h1>
+					  <%= render 'form' %>
+					</p>
+				
+			</div>
 
-<h1>New Student Detail</h1>
+	</div>
+  <div class="col-md-2"></div>
 
-<%= render 'form' %>
+</div>
+
+
 
 <%= link_to 'Back', student_details_path %>
