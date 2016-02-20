@@ -6,11 +6,10 @@ class PagesController < ApplicationController
   	 @student_list = StudentDetail.all
   end
   def viewtc
+  	# byebug
   	 @student_list = StudentDetail.find(params[:id]) 
   end
 
-  def showstudentdetails
-  	
-  end
+ 
   
 end
