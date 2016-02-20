@@ -1,5 +1,5 @@
 class StudentDetailsController < ApplicationController
-  before_action :set_student_detail, only: [:show, :edit, :update, :destroy]
+ before_action :set_student_detail, only: [:show, :edit, :update, :destroy]
 
   # GET /student_details
   # GET /student_details.json

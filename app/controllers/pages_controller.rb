@@ -3,11 +3,14 @@ class PagesController < ApplicationController
   def home
   end
   def tc
-  	 @student_details = StudentDetail.all
+  	 @student_list = StudentDetail.all
   end
   def viewtc
-
+  	 @student_list = StudentDetail.find(params[:id]) 
   end
 
+  def showstudentdetails
+  	
+  end
   
 end

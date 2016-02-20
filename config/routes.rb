@@ -36,6 +36,8 @@ Rails.application.routes.draw do
   get 'login' => 'sessions#new'
   get 'student_details' => 'student_details#new'
   get 'tc' => 'pages#tc'
+  get 'pages/viewtc/:id', to: 'pages#viewtc', as: 'viewtc'
+
  
 
   # The priority is based upon order of creation: first created -> highest priority.

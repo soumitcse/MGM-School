@@ -20,14 +20,17 @@
             <td><%= student_detail.regno %></td>
             <td><%= student_detail.name %></td>
             <td><%= link_to 'Show', student_detail %>
-            <%= link_to 'Edit', edit_student_detail_path(student_detail) %>
+             <!-- link_to 'Edit', edit_student_detail_path(student_detail) %>  for edit-->
             <%= link_to 'Destroy', student_detail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
           </tr>
         <% end %>
       </tbody>
     </table>
   </div>
+ 
 </div>
-<br>
-
-<button onclick="window.location.href='student_details/new'" >New Student Details</button>
+ <button onclick="window.location.href='student_details/new'" class="btn btn-primary" style="height:200px;width:200px" ><h4>Upload <br/>
+  New Student<br/>
+   Details
+ </h4>
+ </button>  

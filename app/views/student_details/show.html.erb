@@ -17,16 +17,11 @@
 			<p>
 			  <strong>File Photo:</strong>
 			 		<!-- Hidden Field only for download for high resolution Image  -->
-			  <%= cl_image_tag(@student_detail.image_id , :class => "download" )  %>
-
-			  <%= cl_image_tag(@student_detail.image_id ,:width => 200, :height => 200, :crop => :fill , :class => "downloadable" )  %>
+			  <%= cl_image_tag(@student_detail.image_id ,:width => 200, :height => 200, :crop => :pad , :class => "downloadable" )  %>
+			   <%= cl_image_tag(@student_detail.image_id , :class => "download" )  %>
 			</p>
 			<div class="alert alert-info" role="alert">Please Click on Image to Download full Image</div>
 			
-
-			
-
-			<%= link_to 'Edit', edit_student_detail_path(@student_detail) %> |
 			<%= link_to 'Back', student_details_path %>
 		</div>
     	
