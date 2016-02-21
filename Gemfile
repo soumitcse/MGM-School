@@ -32,7 +32,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'cloudinary'
 
-
+gem 'Bootstrap-Image-Gallery-rails', '~> 1.0', '>= 1.0.1.3.1.0'
 
 
 gem 'pg'

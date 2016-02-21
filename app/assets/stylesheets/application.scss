@@ -2,6 +2,11 @@
  @import "font-awesome";
  @import "bootstrap-sprockets";
 @import "bootstrap";
+
+@import "blueimp-gallery";
+ @import "bootstrap-image-gallery";
+ @import "blueimp-gallery-indicator";
+ @import "blueimp-gallery-video";
 	@font-face {
 	    font-family: 'didact_gothicregular';
 	    src: url('https://cdn.shopify.com/s/files/1/0752/6435/t/5/assets/didactgothic-webfont.eot');
@@ -1209,6 +1214,7 @@
 		width:75%;
 		float:right;
 		padding-right:20px;
+		height:500px;
 	}
 	.back-to-top {
 	 
@@ -1222,11 +1228,11 @@
 	 
 	right: 0;
 	 
-	width: 70px;
-	 
-	height: 70px;
+	height: 80px;
 	 
 	z-index: 0;
+
+	margin-right: 12px;
 	 
 	display: none;
 	 
@@ -1235,6 +1241,10 @@
 	color: #ffffff;
 	 
 	background-color: none;
+	 }
+
+	 .back-to-top img{
+	 	width:60px;
 	 }
 	 
 	a :hover{
