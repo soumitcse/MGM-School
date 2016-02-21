@@ -1,20 +1,45 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Regno:</strong>
-  <%= @student_detail.regno %>
-</p>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+    	<div class="jumbotron">
+			<h3><center>Student Details</center></h3>
+		  	<p>
+			  <strong>Regno:</strong>
+			  <%= @student_detail.regno %>
+			</p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @student_detail.name %>
-</p>
+			<p>
+			  <strong>Name:</strong>
+			  <%= @student_detail.name %>
+			</p>
 
-<p>
-  <strong>File Photo:</strong>
- 
-  <%= cl_image_tag(@student_detail.image_id) %>
-</p>
+			<p>
+			  <strong>File Photo:</strong>
+			 		<!-- Hidden Field only for download for high resolution Image  -->
+			  <%= cl_image_tag(@student_detail.image_id ,:width => 200, :height => 200, :crop => :pad , :class => "downloadable" )  %>
+			   <%= cl_image_tag(@student_detail.image_id , :class => "download" )  %>
+			</p>
+			<div class="alert alert-info" role="alert">Please Click on Image to Download full Image</div>
+			
+			<%= link_to 'Back', student_details_path %>
+		</div>
+    	
+    	
+    </div>
+</div>
 
-<%= link_to 'Edit', edit_student_detail_path(@student_detail) %> |
-<%= link_to 'Back', student_details_path %>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	 $('img.download').hide();
+    $('img.downloadable').each(function(){
+        var $this = $(this);
+        $this.wrap('<a href="' + $('img.download').attr('src') + '" download />')
+    });
+});
+</script>
+
+
+
+

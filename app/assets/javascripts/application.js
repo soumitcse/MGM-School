@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 
 
@@ -21,6 +22,7 @@
 //= require jquery.fileupload
 //= require jquery.cloudinary 
 
+
 //= require blueimp-gallery
 //= require blueimp-gallery-fullscreen
 //= require blueimp-gallery-indicator
@@ -29,9 +31,12 @@
 //= require jquery.blueimp-gallery
 //= require bootstrap-image-gallery
 
-//= require turbolinks
+
 //= require bootstrap-sprockets
 //= require underscore
+
+//= require turbolinks
+
 
 //= require_tree .
 

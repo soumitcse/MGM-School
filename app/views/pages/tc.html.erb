@@ -1,26 +1,35 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Student Details</h1>
+<h3><center>Listing Students</center></h3>
 
-<table>
-  <thead>
-    <tr>
-      <th>Regno</th>
-      <th>Name</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @student_details.each do |student_detail| %>
-      <tr>
-        <td><%= student_detail.regno %></td>
-        <td><%= student_detail.name %></td>
-        <td><%= link_to 'Show', student_detail %></td>
-     
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class="col-md-6 col-md-offset-3">
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr class="active">
+          <th>Regno</th>
+          <th>Name</th>
+          <th>View TC</th>
+          
+        </tr>
+      </thead>
 
-<br>
+      <tbody>
+        <% @student_list.each do |student| %>
+          <tr>
+           
+            <td><%= student.regno %></td>
+            <td><%= student.name %></td>
+            <td><%= link_to 'Show', viewtc_path(student.id) %></td>
+
+            <!-- <td> link_to 'Show', viewtc %> -->
+             <!-- link_to 'Edit', edit_student_detail_path(student_detail) %>  for edit-->
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+ 
+</div>
+ 
