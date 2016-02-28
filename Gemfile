@@ -38,6 +38,10 @@ gem 'cloudinary'
 
 gem 'roadie'
 
+gem 'Bootstrap-Image-Gallery-rails', '~> 1.0', '>= 1.0.1.3.1.0'
+
+
+
 gem 'pg'
 
 # Use Unicorn as the app server
