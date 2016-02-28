@@ -36,7 +36,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'cloudinary'
 
 
-
+gem 'roadie'
 
 gem 'pg'
 
