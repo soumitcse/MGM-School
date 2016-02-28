@@ -8053,3 +8053,168 @@ Processing by PagesController#tc as HTML
 Completed 200 OK in 295ms (Views: 64.3ms | ActiveRecord: 188.3ms)
 
 Started GET "/assets/home_page/background.jpg" for 127.0.0.1 at 2016-02-22 00:41:19 +0530
+
+
+Started GET "/" for ::1 at 2016-02-29 01:07:27 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (8233.6ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 8733ms (Views: 8694.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-02-29 01:07:37 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-02-29 01:07:37 +0530
+
+
+Started GET "/gallery" for ::1 at 2016-02-29 01:07:41 +0530
+Processing by PagesController#gallery as HTML
+  Rendered pages/gallery.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 73ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/management" for ::1 at 2016-02-29 01:07:43 +0530
+Processing by PagesController#management as HTML
+  Rendered pages/management.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gallery/management/pic_3.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_5.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_1.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_2.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_4.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_6.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_18.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_12.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_7.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_14.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_17.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_8.JPG" for ::1 at 2016-02-29 01:07:43 +0530
+
+
+Started GET "/assets/gallery/management/pic_15.JPG" for ::1 at 2016-02-29 01:07:44 +0530
+
+
+Started GET "/assets/gallery/management/pic_13.JPG" for ::1 at 2016-02-29 01:07:44 +0530
+
+
+Started GET "/assets/gallery/management/pic_10.JPG" for ::1 at 2016-02-29 01:07:44 +0530
+
+
+Started GET "/assets/gallery/management/pic_16.JPG" for ::1 at 2016-02-29 01:07:44 +0530
+
+
+Started GET "/assets/gallery/management/pic_9.JPG" for ::1 at 2016-02-29 01:07:44 +0530
+
+
+Started GET "/assets/gallery/management/pic_11.JPG" for ::1 at 2016-02-29 01:07:44 +0530
+
+
+Started GET "/assets/Gallery/play-pause.png" for ::1 at 2016-02-29 01:07:48 +0530
+
+
+Started GET "/assets/Gallery/loading.gif" for ::1 at 2016-02-29 01:07:48 +0530
+
+
+Started GET "/management" for ::1 at 2016-02-29 01:08:17 +0530
+Processing by PagesController#management as HTML
+  Rendered pages/management.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gallery/management/pic_3.JPG" for ::1 at 2016-02-29 01:08:17 +0530
+
+
+Started GET "/assets/gallery/management/pic_5.JPG" for ::1 at 2016-02-29 01:08:17 +0530
+
+
+Started GET "/assets/gallery/management/pic_2.JPG" for ::1 at 2016-02-29 01:08:17 +0530
+
+
+Started GET "/assets/gallery/management/pic_1.JPG" for ::1 at 2016-02-29 01:08:17 +0530
+
+
+Started GET "/assets/gallery/management/pic_6.JPG" for ::1 at 2016-02-29 01:08:17 +0530
+
+
+Started GET "/assets/gallery/management/pic_4.JPG" for ::1 at 2016-02-29 01:08:17 +0530
+
+
+Started GET "/assets/gallery/management/pic_7.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_13.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_14.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_18.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_12.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_9.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_11.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_10.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_8.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_17.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_15.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/gallery/management/pic_16.JPG" for ::1 at 2016-02-29 01:08:18 +0530
+
+
+Started GET "/assets/Gallery/play-pause.png" for ::1 at 2016-02-29 01:09:01 +0530
+
+
+Started GET "/assets/Gallery/loading.gif" for ::1 at 2016-02-29 01:09:01 +0530
