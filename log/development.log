@@ -10808,3 +10808,2468 @@ Processing by PagesController#gallery as HTML
   Rendered layouts/_header.html.erb (2.2ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 22:46:52 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (8175.1ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 10420ms (Views: 10320.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 22:47:06 +0530
+Processing by PagesController#tc as HTML
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/PassionToTravel/workspace/school_project/app/mailers/newsletter.rb:11: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+   // mail to: "to@example.org"
+          ^):
+  app/mailers/newsletter.rb:11: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/pages_controller.rb:6:in `tc'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.8ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (157.7ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 22:47:09 +0530
+Processing by PagesController#tc as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/PassionToTravel/workspace/school_project/app/mailers/newsletter.rb:11: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+   // mail to: "to@example.org"
+          ^):
+  app/mailers/newsletter.rb:11: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/pages_controller.rb:6:in `tc'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.9ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.9ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.8ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 22:48:00 +0530
+Processing by PagesController#tc as HTML
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (1.0ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.6ms)
+
+Newsletter#weekly: processed outbound mail in 348.6ms
+
+Sent mail to soumitcse@zelo.in (57.8ms)
+Date: Sun, 13 Mar 2016 22:48:01 +0530
+From: from@example.com
+To: soumitcse@zelo.in
+Message-ID: <56e5a0c93fd73_178d3ff9cb734e7025493@Love-Adventure-3.local.mail>
+Subject: sdfsdf
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5a0c93822c_178d3ff9cb734e7025314";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5a0c93822c_178d3ff9cb734e7025314
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+Hi, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5a0c93822c_178d3ff9cb734e7025314
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Newsletter#weekly</h1>
+
+<p>
+  Hi, find me in app/views/newsletter/weekly.html.erb
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5a0c93822c_178d3ff9cb734e7025314--
+
+  [1m[35mStudentDetail Load (1.3ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (24.2ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 1327ms (Views: 150.8ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 22:48:02 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 22:48:02 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-13 22:49:17 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 22:49:23 +0530
+Processing by PagesController#tc as HTML
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.1ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.0ms)
+
+Newsletter#weekly: processed outbound mail in 7.8ms
+
+Sent mail to soumitcse@zelo.in (5.0ms)
+Date: Sun, 13 Mar 2016 22:49:23 +0530
+From: from@example.com
+To: soumitcse@zelo.in
+Message-ID: <56e5a11b6c001_178d3ff9ccafdb142569d@Love-Adventure-3.local.mail>
+Subject: sdfsdf
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5a11b6ac08_178d3ff9ccafdb1425513";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5a11b6ac08_178d3ff9ccafdb1425513
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+Hi, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5a11b6ac08_178d3ff9ccafdb1425513
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Newsletter#weekly</h1>
+
+<p>
+  Hi, find me in app/views/newsletter/weekly.html.erb
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5a11b6ac08_178d3ff9ccafdb1425513--
+
+  [1m[36mStudentDetail Load (0.6ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered pages/tc.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 113ms (Views: 97.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 22:54:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5198.3ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 6665ms (Views: 6618.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 22:54:27 +0530
+Processing by PagesController#tc as HTML
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.5ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.6ms)
+
+Newsletter#weekly: processed outbound mail in 382.1ms
+
+Sent mail to soumitcse@zelo.in (5045.7ms)
+Date: Sun, 13 Mar 2016 22:54:27 +0530
+From: from@example.com
+To: soumitcse@zelo.in
+Message-ID: <56e5a24bb9808_17de3ffa9274ded072055@Love-Adventure-3.local.mail>
+Subject: sdfsdf
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5a24bb2324_17de3ffa9274ded07198a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5a24bb2324_17de3ffa9274ded07198a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+Hi, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5a24bb2324_17de3ffa9274ded07198a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Newsletter#weekly</h1>
+
+<p>
+  Hi, find me in app/views/newsletter/weekly.html.erb
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5a24bb2324_17de3ffa9274ded07198a--
+
+  [1m[35mStudentDetail Load (1.0ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (18.2ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5632ms (Views: 83.1ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:03:52 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4120.9ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 5410ms (Views: 5373.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:03:59 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:03:59 +0530
+
+
+Started GET "/tc" for ::1 at 2016-03-13 23:04:03 +0530
+Processing by PagesController#tc as HTML
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.6ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.4ms)
+
+Newsletter#weekly: processed outbound mail in 351.8ms
+
+Sent mail to soumitcse@zelo.in (5215.9ms)
+Date: Sun, 13 Mar 2016 23:04:04 +0530
+From: from@example.com
+To: soumitcse@zelo.in
+Message-ID: <56e5a48c636fe_18443ff72dad31081141@Love-Adventure-3.local.mail>
+Subject: Feedback
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5a48c6165a_18443ff72dad31081139b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5a48c6165a_18443ff72dad31081139b
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5a48c6165a_18443ff72dad31081139b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Newsletter#weekly</h1>
+
+<p>
+  , find me in app/views/newsletter/weekly.html.erb
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5a48c6165a_18443ff72dad31081139b--
+
+  [1m[35mStudentDetail Load (1.2ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (16.5ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 5831ms (Views: 103.7ms | ActiveRecord: 6.2ms)
+
+
+Started POST "/tc" for ::1 at 2016-03-13 23:42:59 +0530
+
+ActionController::RoutingError (No route matches [POST] "/tc"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (241.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (24.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (504.9ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (86.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (205.7ms)
+
+
+Started GET "/login" for ::1 at 2016-03-13 23:44:38 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 182ms (Views: 181.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:44:39 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:44:40 +0530
+
+
+Started GET "/tc" for ::1 at 2016-03-13 23:45:56 +0530
+Processing by PagesController#tc as HTML
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.1ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.1ms)
+
+Newsletter#weekly: processed outbound mail in 11.8ms
+
+Sent mail to soumitcse@zelo.in (4822.4ms)
+Date: Sun, 13 Mar 2016 23:45:56 +0530
+From: from@example.com
+To: soumitcse@zelo.in
+Message-ID: <56e5ae5c70f31_18443ff731de781811691@Love-Adventure-3.local.mail>
+Subject: Feedback
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5ae5c6ee67_18443ff731de7818115ac";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5ae5c6ee67_18443ff731de7818115ac
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5ae5c6ee67_18443ff731de7818115ac
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Newsletter#weekly</h1>
+
+<p>
+  , find me in app/views/newsletter/weekly.html.erb
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5ae5c6ee67_18443ff731de7818115ac--
+
+  [1m[36mStudentDetail Load (1.1ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered pages/tc.html.erb within layouts/application (52.2ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4994ms (Views: 154.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:46:02 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:46:02 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:46:05 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 143ms (Views: 142.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home" for ::1 at 2016-03-13 23:46:09 +0530
+
+ActionController::RoutingError (No route matches [POST] "/home"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.8ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (119.4ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:46:20 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:46:21 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:46:34 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:46:35 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:46:35 +0530
+
+
+Started POST "/home" for ::1 at 2016-03-13 23:46:37 +0530
+
+ActionController::RoutingError (No route matches [POST] "/home"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.8ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (190.8ms)
+
+
+Started GET "/" for ::1 at 2016-03-13 23:48:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5695.6ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 7383ms (Views: 7337.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e6349df88fd8ec7f47cbc1f16ab53fbb5760830f304a5e2d75a33c578069525.css?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/cloudinary/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/cloudinary/index.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/blueimp-gallery-indicator.self-e23cf816d6c027172128b4f0db129833abe1e3ae322c93241c8cc56b52b6acff.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/blueimp-gallery-fullscreen.self-5596ae0cfcd852ae62b13db67a417bdee0822bf617f650bfdf20565d27b321a7.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/blueimp-gallery-video.self-a0a80c3c798be8043dcb6d9d2a963c8a1fff40a9206fa370d3ccfc4bb965b370.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/blueimp-gallery.self-1989840774cb3b3117f18706c146755373e189383f3a8d2938aa29f5c9959ef5.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/blueimp-gallery-youtube.self-818fad4043f10b90e78a538d342785798c6a37658ce6d8668d90b02d654eb075.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap-image-gallery.self-2d64559daaf7451e8532bbaa234713cfada2e41a9f1e2a9d2f5f629b3741055e.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/jquery.blueimp-gallery.self-70f562a0427737951cd3cd59c9180ae4817ee41f725d64f81a7ff9557120bbfe.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/student_details.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-13 23:48:17 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:48:18 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:48:18 +0530
+
+
+Started POST "/home" for ::1 at 2016-03-13 23:48:22 +0530
+
+ActionController::RoutingError (No route matches [POST] "/home"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (138.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (100.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (177.5ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:48:49 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:48:49 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:48:50 +0530
+
+
+Started POST "/home" for ::1 at 2016-03-13 23:48:52 +0530
+
+ActionController::RoutingError (No route matches [POST] "/home"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (115.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (136.9ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:48:58 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:48:58 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:48:59 +0530
+
+
+Started POST "/home" for ::1 at 2016-03-13 23:50:20 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"", "email"=>"", "comment"=>""}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.5) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.5) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  actionpack (4.2.5) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:164:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:164:in `block in halting'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (31.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (132.1ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:51:14 +0530
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.3ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.0ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.2ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (117.3ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:51:19 +0530
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.9ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.1ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 23:51:38 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4820.9ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 6144ms (Views: 6134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/cloudinary/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/application.self-8e6349df88fd8ec7f47cbc1f16ab53fbb5760830f304a5e2d75a33c578069525.css?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/cloudinary/index.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/blueimp-gallery-indicator.self-e23cf816d6c027172128b4f0db129833abe1e3ae322c93241c8cc56b52b6acff.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/blueimp-gallery-fullscreen.self-5596ae0cfcd852ae62b13db67a417bdee0822bf617f650bfdf20565d27b321a7.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/blueimp-gallery.self-1989840774cb3b3117f18706c146755373e189383f3a8d2938aa29f5c9959ef5.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/blueimp-gallery-video.self-a0a80c3c798be8043dcb6d9d2a963c8a1fff40a9206fa370d3ccfc4bb965b370.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/blueimp-gallery-youtube.self-818fad4043f10b90e78a538d342785798c6a37658ce6d8668d90b02d654eb075.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/jquery.blueimp-gallery.self-70f562a0427737951cd3cd59c9180ae4817ee41f725d64f81a7ff9557120bbfe.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap-image-gallery.self-2d64559daaf7451e8532bbaa234713cfada2e41a9f1e2a9d2f5f629b3741055e.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/student_details.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:51:45 +0530
+
+
+Started GET "/home?name=&email=&comment=" for ::1 at 2016-03-13 23:51:47 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"", "email"=>"", "comment"=>""}
+  Rendered pages/home.html.erb within layouts/application (11.9ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 23:51:48 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 23:51:48 +0530
+
+
+Started GET "/admission" for ::1 at 2016-03-14 00:30:10 +0530
+Processing by PagesController#admission as HTML
+  Rendered pages/admission.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:30:12 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:30:37 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:30:38 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:30:38 +0530
+
+
+Started GET "/home?name=&email=&comment=" for ::1 at 2016-03-14 00:30:41 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"", "email"=>"", "comment"=>""}
+  Rendered pages/home.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:30:41 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:30:41 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:31:21 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home?name=&email=&comment=" for ::1 at 2016-03-14 00:31:24 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"", "email"=>"", "comment"=>""}
+  Rendered pages/home.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:31:25 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:31:25 +0530
+
+
+Started GET "/" for ::1 at 2016-03-14 00:32:21 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5828.8ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 17284ms (Views: 10582.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e6349df88fd8ec7f47cbc1f16ab53fbb5760830f304a5e2d75a33c578069525.css?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/cloudinary/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/cloudinary/index.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/blueimp-gallery.self-1989840774cb3b3117f18706c146755373e189383f3a8d2938aa29f5c9959ef5.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/blueimp-gallery-fullscreen.self-5596ae0cfcd852ae62b13db67a417bdee0822bf617f650bfdf20565d27b321a7.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/blueimp-gallery-indicator.self-e23cf816d6c027172128b4f0db129833abe1e3ae322c93241c8cc56b52b6acff.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/blueimp-gallery-video.self-a0a80c3c798be8043dcb6d9d2a963c8a1fff40a9206fa370d3ccfc4bb965b370.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/blueimp-gallery-youtube.self-818fad4043f10b90e78a538d342785798c6a37658ce6d8668d90b02d654eb075.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.blueimp-gallery.self-70f562a0427737951cd3cd59c9180ae4817ee41f725d64f81a7ff9557120bbfe.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap-image-gallery.self-2d64559daaf7451e8532bbaa234713cfada2e41a9f1e2a9d2f5f629b3741055e.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/student_details.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-14 00:32:40 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:32:41 +0530
+
+
+Started GET "/home?name=&email=&comment=" for ::1 at 2016-03-14 00:32:48 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"", "email"=>"", "comment"=>""}
+  Rendered pages/home.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 338657ms (Views: 164.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:38:28 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:38:28 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:39:02 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (9430.0ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 11372ms (Views: 10968.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/application.self-8e6349df88fd8ec7f47cbc1f16ab53fbb5760830f304a5e2d75a33c578069525.css?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/cloudinary/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/cloudinary/index.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/blueimp-gallery.self-1989840774cb3b3117f18706c146755373e189383f3a8d2938aa29f5c9959ef5.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/blueimp-gallery-youtube.self-818fad4043f10b90e78a538d342785798c6a37658ce6d8668d90b02d654eb075.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/blueimp-gallery-indicator.self-e23cf816d6c027172128b4f0db129833abe1e3ae322c93241c8cc56b52b6acff.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/blueimp-gallery-video.self-a0a80c3c798be8043dcb6d9d2a963c8a1fff40a9206fa370d3ccfc4bb965b370.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/blueimp-gallery-fullscreen.self-5596ae0cfcd852ae62b13db67a417bdee0822bf617f650bfdf20565d27b321a7.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap-image-gallery.self-2d64559daaf7451e8532bbaa234713cfada2e41a9f1e2a9d2f5f629b3741055e.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/jquery.blueimp-gallery.self-70f562a0427737951cd3cd59c9180ae4817ee41f725d64f81a7ff9557120bbfe.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/student_details.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-14 00:39:15 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:39:16 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:39:16 +0530
+
+
+Started GET "/home?name=dfkjsksfhdakName&email=jdhskjfhsdjfh%40emial&comment=jshfdgjdhfghdfkCoo" for ::1 at 2016-03-14 00:39:33 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"dfkjsksfhdakName", "email"=>"jdhskjfhsdjfh@emial", "comment"=>"jshfdgjdhfghdfkCoo"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (3.1ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (1.9ms)
+
+Newsletter#weekly: processed outbound mail in 525.0ms
+
+Sent mail to soumitcse@gmail.com (8853.0ms)
+Date: Mon, 14 Mar 2016 00:39:56 +0530
+From: from@example.com
+To: soumitcse@gmail.com
+Message-ID: <56e5bb041c499_1c643fc75bc3152454751@Love-Adventure-3.local.mail>
+Subject: Feedback
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5bb044407_1c643fc75bc31524546c7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5bb044407_1c643fc75bc31524546c7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5bb044407_1c643fc75bc31524546c7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Newsletter#weekly</h1>
+
+<p>
+  , find me in app/views/newsletter/weekly.html.erb
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5bb044407_1c643fc75bc31524546c7--
+
+  Rendered pages/home.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44823ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:40:18 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:40:18 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:41:46 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5468.5ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 8439ms (Views: 8401.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e6349df88fd8ec7f47cbc1f16ab53fbb5760830f304a5e2d75a33c578069525.css?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/cloudinary/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/cloudinary/index.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/blueimp-gallery.self-1989840774cb3b3117f18706c146755373e189383f3a8d2938aa29f5c9959ef5.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/blueimp-gallery-fullscreen.self-5596ae0cfcd852ae62b13db67a417bdee0822bf617f650bfdf20565d27b321a7.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/blueimp-gallery-video.self-a0a80c3c798be8043dcb6d9d2a963c8a1fff40a9206fa370d3ccfc4bb965b370.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/blueimp-gallery-indicator.self-e23cf816d6c027172128b4f0db129833abe1e3ae322c93241c8cc56b52b6acff.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/blueimp-gallery-youtube.self-818fad4043f10b90e78a538d342785798c6a37658ce6d8668d90b02d654eb075.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap-image-gallery.self-2d64559daaf7451e8532bbaa234713cfada2e41a9f1e2a9d2f5f629b3741055e.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/jquery.blueimp-gallery.self-70f562a0427737951cd3cd59c9180ae4817ee41f725d64f81a7ff9557120bbfe.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/student_details.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:41:56 +0530
+
+
+Started GET "/home?name=test&email=test%40gmail&comment=commentshdfj+sdhfjksdkfsd" for ::1 at 2016-03-14 00:42:10 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"test", "email"=>"test@gmail", "comment"=>"commentshdfj sdhfjksdkfsd"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.7ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.4ms)
+
+Newsletter#weekly: processed outbound mail in 275.5ms
+
+Sent mail to soumitcse@gmail.com (4339.6ms)
+Date: Mon, 14 Mar 2016 00:42:10 +0530
+From: from@example.com
+To: soumitcse@gmail.com
+Message-ID: <56e5bb8ab0f65_1c863ffd1bbaf8808552e@Love-Adventure-3.local.mail>
+Subject: Feedback
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5bb8aaf2b6_1c863ffd1bbaf880854f8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5bb8aaf2b6_1c863ffd1bbaf880854f8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5bb8aaf2b6_1c863ffd1bbaf880854f8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Newsletter#weekly</h1>
+
+<p>
+  test
+  test@gmail
+  commentshdfj sdhfjksdkfsd
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5bb8aaf2b6_1c863ffd1bbaf880854f8--
+
+  Rendered pages/home.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4833ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:42:15 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:42:15 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:44:24 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (9031.3ms)
+  Rendered layouts/_header.html.erb (43.2ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 13528ms (Views: 13490.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home?name=test2&email=testemail&comment=testcommenta+sdhfjksdf+sdjhfjsdf+sdfgsdjfs+dfsdf%0D%0Ashgfshklfjsdf%0D%0Asdfhjsdf%0D%0Asdfjdhs" for ::1 at 2016-03-14 00:44:55 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"test2", "email"=>"testemail", "comment"=>"testcommenta sdhfjksdf sdjhfjsdf sdfgsdjfs dfsdf\r\nshgfshklfjsdf\r\nsdfhjsdf\r\nsdfjdhs"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.4ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.7ms)
+
+Newsletter#weekly: processed outbound mail in 396.0ms
+
+Sent mail to soumitcse@gmail.com (4181.8ms)
+Date: Mon, 14 Mar 2016 00:44:56 +0530
+From: from@example.com
+To: soumitcse@gmail.com
+Message-ID: <56e5bc308474c_1ca43ffd6a33e3dc6442e@Love-Adventure-3.local.mail>
+Subject: Feedback
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5bc307dbf4_1ca43ffd6a33e3dc64329";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5bc307dbf4_1ca43ffd6a33e3dc64329
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5bc307dbf4_1ca43ffd6a33e3dc64329
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    
+
+<p>
+<h2><strong>Feedback Mail From User</strong></h2>
+  <h1>test2</h1>
+  <h1>testemail</h1>
+  <h3>testcommenta sdhfjksdf sdjhfjsdf sdfgsdjfs dfsdf
+shgfshklfjsdf
+sdfhjsdf
+sdfjdhs</h3>
+  
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5bc307dbf4_1ca43ffd6a33e3dc64329--
+
+  Rendered pages/home.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 4829ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:45:01 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:45:01 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:48:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5049.8ms)
+  Rendered layouts/_header.html.erb (8.7ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 6444ms (Views: 6407.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home?name=sdjfhsadf&email=hjshdhdfhg%40jssk&comment=jdsfhjhdkfhgjdfg%0D%0Adfjghjkdfhgd%0D%0Adfjghdjfkhgd" for ::1 at 2016-03-14 00:48:28 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"sdjfhsadf", "email"=>"hjshdhdfhg@jssk", "comment"=>"jdsfhjhdkfhgjdfg\r\ndfjghjkdfhgd\r\ndfjghdjfkhgd"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.6ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.4ms)
+
+Newsletter#weekly: processed outbound mail in 356.9ms
+
+Sent mail to soumitcse@gmail.com (10221.7ms)
+Date: Mon, 14 Mar 2016 00:48:28 +0530
+From: from@example.com
+To: soumitcse@gmail.com
+Message-ID: <56e5bd0489544_1d1a3ffa7ab8be4c79025@Love-Adventure-3.local.mail>
+Subject: Feedback
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5bd0487562_1d1a3ffa7ab8be4c78934";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5bd0487562_1d1a3ffa7ab8be4c78934
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5bd0487562_1d1a3ffa7ab8be4c78934
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    
+
+<p>
+<h2><strong>Feedback Mail From User</strong></h2>
+  <h1>Name :- sdjfhsadf</h1>
+  <h1>Email Id :- hjshdhdfhg@jssk</h1>
+  <h3>Comment :- 
+  	<p> jdsfhjhdkfhgjdfg
+dfjghjkdfhgd
+dfjghdjfkhgd
+  		</p>
+  	</h3>
+  	
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5bd0487562_1d1a3ffa7ab8be4c78934--
+
+  Rendered pages/home.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 10760ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:48:39 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:48:39 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:50:13 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5531.5ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 7628ms (Views: 7590.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 00:50:41 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 153ms (Views: 152.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:50:41 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:50:42 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:50:44 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home?name=sdjfhkfjsda&email=hjksdjkfgsd&comment=dfhgjhdsfjkgdsf" for ::1 at 2016-03-14 00:50:53 +0530
+Processing by PagesController#home as HTML
+  Parameters: {"name"=>"sdjfhkfjsda", "email"=>"hjksdjkfgsd", "comment"=>"dfhgjhdsfjkgdsf"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from deliver at /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:99)
+  Rendered newsletter/weekly.html.erb within layouts/mailer (0.4ms)
+  Rendered newsletter/weekly.text.erb within layouts/mailer (0.5ms)
+
+Newsletter#weekly: processed outbound mail in 290.2ms
+
+Sent mail to soumitcse@gmail.com (4301.6ms)
+Date: Mon, 14 Mar 2016 00:50:53 +0530
+From: from@example.com
+To: soumitcse@gmail.com
+Message-ID: <56e5bd95ad2f6_1d383ffb093bd10444755@Love-Adventure-3.local.mail>
+Subject: Feedback
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_56e5bd95a70b2_1d383ffb093bd10444681";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_56e5bd95a70b2_1d383ffb093bd10444681
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Newsletter#weekly
+
+, find me in app/views/newsletter/weekly.text.erb
+
+
+----==_mimepart_56e5bd95a70b2_1d383ffb093bd10444681
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    
+
+<p>
+<h2><strong>Feedback Mail From User</strong></h2>
+  <h1>Name :- sdjfhkfjsda</h1>
+  <h1>Email Id :- hjksdjkfgsd</h1>
+  <h3>Comment :- 
+  	<p> dfhgjhdsfjkgdsf
+  		</p>
+  	</h3>
+  	
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_56e5bd95a70b2_1d383ffb093bd10444681--
+
+  Rendered pages/home.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 4731ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:50:58 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:50:58 +0530
+
+
+Started GET "/tc" for ::1 at 2016-03-14 00:51:02 +0530
+Processing by PagesController#tc as HTML
+  [1m[35mStudentDetail Load (1.1ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 109ms (Views: 77.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/contact_us" for ::1 at 2016-03-14 00:51:06 +0530
+Processing by PagesController#contact_us as HTML
+  Rendered pages/contact_us.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact_us/contact2.jpg" for ::1 at 2016-03-14 00:51:06 +0530
+
+
+Started GET "/tc" for ::1 at 2016-03-14 00:51:09 +0530
+Processing by PagesController#tc as HTML
+  [1m[36mStudentDetail Load (0.6ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered pages/tc.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/gallery" for ::1 at 2016-03-14 00:51:10 +0530
+Processing by PagesController#gallery as HTML
+  Rendered pages/gallery.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admission" for ::1 at 2016-03-14 00:51:12 +0530
+Processing by PagesController#admission as HTML
+  Rendered pages/admission.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for ::1 at 2016-03-14 00:51:14 +0530
+Processing by PagesController#about_us as HTML
+  Rendered pages/about_us.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:51:14 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-03-14 00:51:18 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2016-03-14 00:51:20 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"az0EQ+tTn6xvhJlG4eBMNp9BS3WyCOflpV7LO6sIV4tc7jQylj0qDMqHBQmsJ000zLot043EXROvEp+ZHLAspw==", "name"=>"shefali", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1  [["name", "shefali"]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 200ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/admin" for ::1 at 2016-03-14 00:51:20 +0530
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/student_details
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/student_details" for ::1 at 2016-03-14 00:51:20 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.6ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 78ms (Views: 75.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:51:20 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:51:20 +0530
+
+
+Started GET "/student_details/new" for ::1 at 2016-03-14 00:51:21 +0530
+Processing by StudentDetailsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered student_details/_form.html.erb (266.5ms)
+  Rendered student_details/new.html.erb within layouts/application (285.2ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 357ms (Views: 355.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/student_details/assets/home_page/top.png" for ::1 at 2016-03-14 00:51:22 +0530
+
+ActionController::RoutingError (No route matches [GET] "/student_details/assets/home_page/top.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/PassionToTravel/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.6ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PassionToTravel/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (183.1ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 00:51:22 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 00:51:23 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 00:51:23 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 01:02:24 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 157ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 01:02:25 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 01:02:25 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 01:04:33 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 01:04:33 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 01:04:34 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 01:05:38 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 01:05:39 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 01:05:39 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 01:06:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (6624.4ms)
+  Rendered layouts/_header.html.erb (6.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 8538ms (Views: 8501.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e6349df88fd8ec7f47cbc1f16ab53fbb5760830f304a5e2d75a33c578069525.css?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/cloudinary/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/cloudinary/index.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/blueimp-gallery-fullscreen.self-5596ae0cfcd852ae62b13db67a417bdee0822bf617f650bfdf20565d27b321a7.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/blueimp-gallery-indicator.self-e23cf816d6c027172128b4f0db129833abe1e3ae322c93241c8cc56b52b6acff.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/blueimp-gallery.self-1989840774cb3b3117f18706c146755373e189383f3a8d2938aa29f5c9959ef5.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/blueimp-gallery-video.self-a0a80c3c798be8043dcb6d9d2a963c8a1fff40a9206fa370d3ccfc4bb965b370.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/blueimp-gallery-youtube.self-818fad4043f10b90e78a538d342785798c6a37658ce6d8668d90b02d654eb075.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/jquery.blueimp-gallery.self-70f562a0427737951cd3cd59c9180ae4817ee41f725d64f81a7ff9557120bbfe.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap-image-gallery.self-2d64559daaf7451e8532bbaa234713cfada2e41a9f1e2a9d2f5f629b3741055e.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 01:06:27 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/student_details.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-14 01:06:28 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-14 01:08:34 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (8249.3ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 9676ms (Views: 9639.0ms | ActiveRecord: 0.0ms)

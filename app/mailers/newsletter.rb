@@ -5,9 +5,11 @@ class Newsletter < ApplicationMailer
   #
   #   en.newsletter.weekly.subject
   #
-  def weekly
-    @greeting = "Hi"
-
-    mail to: "to@example.org"
+  def weekly(name ,email,comment)
+    @name = name
+    @email_id = email
+    @comment = comment
+ 	
+    mail to: "mgmschoolfirozabad@gmail.com", subject: "Feedback"
   end
 end
