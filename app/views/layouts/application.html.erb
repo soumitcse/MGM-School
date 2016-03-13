@@ -39,15 +39,20 @@
 </script>
 </head>
 <body>
+<div class="container">
+    <div>
+      <%= render 'layouts/header' %>
 
-  <%= render 'layouts/header' %>
-
-<%= favicon_link_tag 'favicon.ico' %>
-
-<%= yield %>
-
-<%= render 'layouts/footer' %>
-
+      <%= favicon_link_tag 'favicon.ico' %>
+    </div>
+    <div>
+      <%= yield %>
+      </br>
+    </div>
+    <div>
+      <%= render 'layouts/footer' %>
+    </div>
+</div>
 <script>
 // Vars
 

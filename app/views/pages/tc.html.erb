@@ -1,35 +1,36 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <p id="notice"><%= notice %></p>
 
-<h3><center>Listing Students</center></h3>
+  <h3><center>Listing Students</center></h3>
 
 
-<div class="col-md-6 col-md-offset-3">
-  <div class="table-responsive">
-    <table class="table table-bordered">
-      <thead>
-        <tr class="active">
-          <th>Regno</th>
-          <th>Name</th>
-          <th>View TC</th>
-          
-        </tr>
-      </thead>
-
-      <tbody>
-        <% @student_list.each do |student| %>
-          <tr>
-           
-            <td><%= student.regno %></td>
-            <td><%= student.name %></td>
-            <td><%= link_to 'Show', viewtc_path(student.id) %></td>
-
-            <!-- <td> link_to 'Show', viewtc %> -->
-             <!-- link_to 'Edit', edit_student_detail_path(student_detail) %>  for edit-->
+  <div class="col-md-6 col-md-offset-3">
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr class="active">
+            <th>Regno</th>
+            <th>Name</th>
+            <th>View TC</th>
+            
           </tr>
-        <% end %>
-      </tbody>
-    </table>
+        </thead>
+
+        <tbody>
+          <% @student_list.each do |student| %>
+            <tr>
+             
+              <td><%= student.regno %></td>
+              <td><%= student.name %></td>
+              <td><%= link_to 'Show', viewtc_path(student.id) %></td>
+
+              <!-- <td> link_to 'Show', viewtc %> -->
+               <!-- link_to 'Edit', edit_student_detail_path(student_detail) %>  for edit-->
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+   
   </div>
- 
-</div>
- 
+</div> 

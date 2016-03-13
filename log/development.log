@@ -8218,3 +8218,668 @@ Started GET "/assets/Gallery/play-pause.png" for ::1 at 2016-02-29 01:09:01 +053
 
 
 Started GET "/assets/Gallery/loading.gif" for ::1 at 2016-02-29 01:09:01 +0530
+
+
+Started GET "/login" for ::1 at 2016-03-13 18:20:49 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (17.2ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 1410ms (Views: 1399.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2016-03-13 18:20:52 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EvSSCMgspOZ3s8Z22ZgSU8Iqi5MrUc5lCzzcjvTaXxElJ6J5tUIRRtKwWjmUXxNRkdHtNRSddJMBcIgsQ2IkPQ==", "name"=>"shefali", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (51.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1  [["name", "shefali"]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 255ms (ActiveRecord: 57.4ms)
+
+
+Started GET "/admin" for ::1 at 2016-03-13 18:20:52 +0530
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (14.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/student_details
+Completed 302 Found in 17ms (ActiveRecord: 14.3ms)
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 18:20:52 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.8ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 70ms (Views: 63.6ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 18:20:53 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 18:20:53 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 18:53:26 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.4ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 18:53:27 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 18:53:27 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 18:53:37 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.4ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 18:53:38 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 18:53:38 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 18:54:26 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.4ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 18:54:27 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 18:54:27 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:09:20 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.5ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:09:20 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:09:20 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:09:31 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.5ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:09:32 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:09:32 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:09:57 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.4ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 70ms (Views: 68.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:09:58 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:09:58 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:10:31 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.4ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:10:32 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:10:32 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:10:44 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.5ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:10:45 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:10:45 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:11:38 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.7ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:11:38 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:11:38 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:12:57 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.5ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:12:58 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:12:58 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:13:04 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.5ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-8e6349df88fd8ec7f47cbc1f16ab53fbb5760830f304a5e2d75a33c578069525.css?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/cloudinary/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/cloudinary/jquery.cloudinary.self-fa963439c5712b0e4104bfd25b427ac4f4db8c09c79920a0c019f1e9b05b6706.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery.ui.widget.self-92c37a41e67e528eecf100716907331b4b9aa4f546bf75ef2e0529c8c03a562d.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/cloudinary/index.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery.cloudinary.self-4c98f7a3ce34d0d42f9123b11a10c6c0691f4fe75dd8c0d41f1d41d38b16843f.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/blueimp-gallery-fullscreen.self-5596ae0cfcd852ae62b13db67a417bdee0822bf617f650bfdf20565d27b321a7.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/blueimp-gallery.self-1989840774cb3b3117f18706c146755373e189383f3a8d2938aa29f5c9959ef5.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/blueimp-gallery-indicator.self-e23cf816d6c027172128b4f0db129833abe1e3ae322c93241c8cc56b52b6acff.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/blueimp-gallery-video.self-a0a80c3c798be8043dcb6d9d2a963c8a1fff40a9206fa370d3ccfc4bb965b370.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/blueimp-gallery-youtube.self-818fad4043f10b90e78a538d342785798c6a37658ce6d8668d90b02d654eb075.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery.blueimp-gallery.self-70f562a0427737951cd3cd59c9180ae4817ee41f725d64f81a7ff9557120bbfe.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap-image-gallery.self-2d64559daaf7451e8532bbaa234713cfada2e41a9f1e2a9d2f5f629b3741055e.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/underscore.self-233c7444ae75bf16b2ca5baf4f579c63e85e1a9524f7ed37ecbd2eade0c14d03.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/student_details.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/application.self-f4d98398c7b8062a8f85d0f70bd72cbc37dc5a8982366e6768788cecde236689.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-13 19:13:04 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:13:05 +0530
+
+
+Started GET "/assets/jquery-2.2.0.min.self-836344bf9124ea71db9206ae9e0c5ece9ab51b4125341a256871e48181b411fe.js?body=1" for ::1 at 2016-03-13 19:13:05 +0530
+
+
+Started GET "/assets/cloudinary/jquery.iframe-transport.self-6fdaccef712b63a5a9aa8fbcd0e6d2071a6056eb3e165835e05ff0734dd9d5fe.js?body=1" for ::1 at 2016-03-13 19:13:05 +0530
+
+
+Started GET "/assets/cloudinary/jquery.fileupload.self-c6cbb0b05ba3d5565ddfbc78d52abc7a89e964b7cb015b0c930d5bb6c89e4b8f.js?body=1" for ::1 at 2016-03-13 19:13:05 +0530
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:13:05 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:13:05 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:16:15 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.4ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:16:16 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:16:16 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-13 19:16:19 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 19:16:54 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5545.6ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 7052ms (Views: 7015.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:17:03 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-13 19:17:19 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:17:20 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:17:24 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.7ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (20.7ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 270ms (Views: 123.0ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:19:49 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.5ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 56.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:19:49 +0530
+
+
+Started GET "/login" for ::1 at 2016-03-13 19:19:56 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 19:19:59 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for ::1 at 2016-03-13 19:20:04 +0530
+Processing by PagesController#about_us as HTML
+  Rendered pages/about_us.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:20:09 +0530
+Processing by PagesController#tc as HTML
+  [1m[35mStudentDetail Load (0.5ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 88ms (Views: 86.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:20:36 +0530
+Processing by PagesController#tc as HTML
+  [1m[36mStudentDetail Load (0.5ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered pages/tc.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:20:37 +0530
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:20:41 +0530
+Processing by PagesController#tc as HTML
+  [1m[35mStudentDetail Load (0.5ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:20:42 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-13 19:21:01 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:21:06 +0530
+Processing by PagesController#tc as HTML
+  [1m[36mStudentDetail Load (0.7ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered pages/tc.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:21:41 +0530
+Processing by PagesController#tc as HTML
+  [1m[35mStudentDetail Load (0.5ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:21:41 +0530
+
+
+Started GET "/home" for ::1 at 2016-03-13 19:21:44 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:21:46 +0530
+Processing by PagesController#tc as HTML
+  [1m[36mStudentDetail Load (0.6ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered pages/tc.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:21:57 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#tc as HTML
+  [1m[35mStudentDetail Load (0.8ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (14.7ms)
+  Rendered layouts/_header.html.erb (14.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 744ms (Views: 725.7ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:21:59 +0530
+
+
+Started GET "/login" for ::1 at 2016-03-13 19:22:05 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2016-03-13 19:22:08 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rmKJOTYIP3C7Y2HUajSa+pw1b+AON3liNcUNTkFP3z2ZsblIS2aK0B5g/Zsn85v4z84JRjH7w5Q/iVns9vekEQ==", "name"=>"shefali", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1[0m  [["name", "shefali"]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 96ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/admin" for ::1 at 2016-03-13 19:22:08 +0530
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/student_details
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:22:08 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mStudentDetail Load (0.5ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered student_details/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:22:08 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:22:29 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mStudentDetail Load (0.5ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered student_details/index.html.erb within layouts/application (16.7ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 61.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:22:30 +0530
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:22:44 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentDetailsController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mStudentDetail Load (0.8ms)[0m  [1mSELECT "student_details".* FROM "student_details"[0m
+  Rendered student_details/index.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_header.html.erb (14.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 732ms (Views: 693.9ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:22:45 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:22:45 +0530
+
+
+Started GET "/tc" for ::1 at 2016-03-13 19:22:51 +0530
+Processing by PagesController#tc as HTML
+  [1m[35mStudentDetail Load (0.5ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered pages/tc.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for ::1 at 2016-03-13 19:22:56 +0530
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-03-13 19:22:59 +0530
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2016-03-13 19:23:00 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aFSEPyECDgNipZguVwoGBxFcEJjeqVnfgu+IzZP6Ia1fh7ROXGy7o8emBGEazQcFQqd2PuFl4ymIo9xvJEJagQ==", "name"=>"shefali", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1[0m  [["name", "shefali"]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 83ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for ::1 at 2016-03-13 19:23:01 +0530
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/student_details
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/student_details" for ::1 at 2016-03-13 19:23:01 +0530
+Processing by StudentDetailsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mStudentDetail Load (0.4ms)[0m  SELECT "student_details".* FROM "student_details"
+  Rendered student_details/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/home_page/top.png" for ::1 at 2016-03-13 19:23:01 +0530
+
+
+Started GET "/assets/home_page/background.jpg" for ::1 at 2016-03-13 19:23:01 +0530
