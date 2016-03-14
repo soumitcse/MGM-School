@@ -35,6 +35,8 @@
 //= require bootstrap-sprockets
 //= require underscore
 
+//= require gmaps/google
+
 //= require turbolinks
 
 

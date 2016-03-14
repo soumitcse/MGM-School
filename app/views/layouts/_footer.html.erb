@@ -6,22 +6,28 @@
         <div class="col-xs-4">
           <h1 class="title"><i class="fa fa-phone" style="font-size:15px;"></i>  contact us</h1>
           <hr></br>
-          <a href=" mailto:mgmschoolfirozabad@gmail.com"><i class="fa fa-envelope-o"style="font-size:19px;"> mgmschoolfirozabad@gmail.com</i></a></br></br></br></br></br></br>
+          <a href=" mailto:mgmschoolfirozabad@gmail.com"><i class="fa fa-envelope-o"style="font-size:19px;"> mgmschoolfirozabad@gmail.com</i></a>
+          <addressess><p>
+        M.G.M Sr. Sec. School<br>
+        Firozabad,Dholpur road,<br>
+        Uttar Paradesh ,<br>
+        Pin Code:283203
+      </p>
+              </addressess>
           <i class="fa fa-phone" style="font-size:19px;"> +91-9219420221</i>
         </div>
         <div class="col-xs-4">
         
           <h1 class="title"><i class="fa fa-map-marker" style="font-size:15px;"></i> Address</h1><hr>
           
-          <div id="googleMap" class="col-xs-6" style="height:250px;"></div>
+          <div id="googleMap" class="col-xs-6" style="height:250px;">
+
+             
+              <div id="geolocation" style='width: 380px; height: 250px;'></div>
+
+          </div>
           <div id="address" class="col-xs-6">
-              <addressess>
-        M.G.M Sr. Sec. School<br>
-        Firozabad,Dholpur road,<br>
-        Uttar Paradesh ,<br>
-        Pin Code:283203
-      
-              </addressess>
+              
               </div>
           
         </div>
@@ -91,3 +97,20 @@
 </a>
 </div>
 </div>
+
+
+<script type="text/javascript">
+var handler = Gmaps.build('Google');
+handler.buildMap({ internal: {id: 'geolocation'} }, function(){
+  if(navigator.geolocation)
+    navigator.geolocation.getCurrentPosition(displayOnMap);
+});
+
+function displayOnMap(position){
+  var marker = handler.addMarker({
+    lat: 27.159355, //position.coords.latitude,
+    lng: 78.396830// position.coords.longitude
+  });
+  handler.map.centerOn(marker);
+};
+</script>
