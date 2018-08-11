@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   get '/admission' => 'pages#admission' , as: 'admission'
   get 'uniform' => 'pages#uniform' , as: 'uniform'
   get 'parents_recomandation' => 'pages#parents_recomandation' , as: 'parents_recomandation'
+  get 'fee_stucture' => 'pages#fee_stucture' , as: 'fee_stucture'
   get 'teaching_staff' => 'pages#teaching_staff' , as: 'teaching_staff'
   get 'school' => 'pages#school' , as: 'school'
   get 'school_function' => 'pages#school_function' , as: 'school_function'

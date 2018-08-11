@@ -39,10 +39,9 @@ gem 'cloudinary'
 gem 'roadie'
 
 gem 'Bootstrap-Image-Gallery-rails', '~> 1.0', '>= 1.0.1.3.1.0'
-
-
-
-gem 'pg'
+	
+gem 'pg', '~> 0.21.0'
+# gem 'pg'
 
 gem 'gmaps4rails'
 

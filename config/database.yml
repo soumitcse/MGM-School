@@ -4,8 +4,8 @@ development:
   database: mgmschooldb
   pool: 5
   timeout: 5000
-  username: mgmschooldb
-  password: 
+  username: postgres
+  password: password
 
 
 test:
@@ -15,8 +15,8 @@ test:
 
   pool: 5
   timeout: 5000
-  username: mgmschooldb
-  password: 
+  username: postgres
+  password: password
 
 production:
   adapter: postgresql
@@ -26,5 +26,4 @@ production:
   pool: 5
   timeout: 5000
   username: mgmschooldb
-  password: 
-
+  password:

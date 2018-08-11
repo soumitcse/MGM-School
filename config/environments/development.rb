@@ -27,7 +27,7 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.serve_static_assets = true 
+  config.serve_static_files = true 
   config.assets.compile = true 
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
